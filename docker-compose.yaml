@@ -35,6 +35,7 @@ services:
         condition: service_started
     volumes:
       - ./local-dev/nakama/data:/nakama/data
+      - ./server/build:/nakama/data/modules
     expose:
       - "7349"
       - "7350"

@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./build"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "nakama-runtime": "https://github.com/heroiclabs/nakama-common"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
